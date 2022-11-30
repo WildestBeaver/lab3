@@ -40,4 +40,4 @@ jobs:
         
     - name: Calc code coverage
       run: |
-        python -m pytest --cov-report term --cov=functions tests/
+        python -m pytest --cov-report term --cov=funcy tests/
