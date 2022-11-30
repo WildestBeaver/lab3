@@ -1,7 +1,6 @@
 import unittest
 from funcy import sub_func_2
 
-
 # Юнит тест подфункции 2 (sub_func_2)
 class TestSubFunc2(unittest.TestCase):
 
@@ -19,7 +18,6 @@ class TestSubFunc2(unittest.TestCase):
 
     def test_5(self):
         self.assertAlmostEqual(sub_func_2(-2), 2.302585093)
-
 
 if __name__ == '__main__':
     unittest.main()
